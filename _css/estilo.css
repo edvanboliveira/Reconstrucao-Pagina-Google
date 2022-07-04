@@ -1,0 +1,177 @@
+* {
+    border: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: #323232;
+}
+
+.interface {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.listagem {
+    text-align: end;
+    padding-right: 2%;
+    padding: 1% 2% 0% 1%;
+}
+
+.items-menu {
+    display: inline-flex;
+    justify-content: center;
+    padding-left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+
+}
+
+.item-link {
+    color: white;
+    text-decoration: none;
+}
+
+.bi-grid-3x3-gap-fill {
+    font-size: 21px;
+    color: white;
+    vertical-align: middle;
+
+}
+
+.logo-google {
+
+    padding: 15% 0% 0%;
+    background-image: url("/_img/google-logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+input#pesquisa {
+    z-index: 1;
+    margin-top: -1%;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px black;
+    background-color: white;
+
+}
+
+.barra-pesquisa {
+    display: flex;
+    justify-content: center;
+}
+
+input#pesquisa::placeholder {
+
+    font-family: sans-serif;
+    font-size: inherit;
+    color: rgb(129, 127, 127);
+
+}
+
+.item-link:hover {
+    color: rgb(240, 238, 238);
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.bi-search {
+    color: white;
+    display: flex;
+    padding-left: 1%;
+    font-size: 20px;
+    vertical-align: middle;
+    
+    
+
+}
+
+.mudar-tema {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    color: white;
+   
+}
+.gap-footer{
+    flex-grow: 1;
+}
+
+.footer {
+    height: 100px;
+   
+
+
+}
+.footer h5{
+    font-size: medium;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+
+}
+@media (max-width: 1200px){
+    .logo-google {
+        padding: 20% 0% 0%;
+
+}
+}
+@media (max-width: 890px){
+    .logo-google {
+        padding: 25% 0% 0%;
+
+}
+}
+@media (max-width: 740px){
+    .logo-google {
+        padding: 35% 0% 0%;
+
+}
+}
+
+@media (max-width: 580px){
+    .logo-google {
+        padding: 45% 0% 0%;
+
+}
+    .footer h5{
+        font-size: medium;
+    }
+    #pesquisa{
+        width: 230pt;
+    }
+
+}
+@media (max-width: 480px){
+    .logo-google {
+        padding: 55% 0% 0%;
+    }
+        .footer h5{
+            font-size: small;
+        }
+        #pesquisa{
+            width: 230pt;
+        }
+}
+
+    
+@media (max-width: 330px){
+    .logo-google {
+        padding: 65% 0% 0%;
+
+}
+.footer h5{
+    font-size: xx-small;
+}
+#pesquisa{
+    width: 170pt;
+}
+  
+}
