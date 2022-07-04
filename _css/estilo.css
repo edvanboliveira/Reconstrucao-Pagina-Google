@@ -4,7 +4,7 @@
     
 }
 body{
-    background-color: #323232;
+    background-color: rgb(247, 247, 247);
 }
 
 .interface {
@@ -29,13 +29,13 @@ body{
 }
 
 .item-link {
-    color: white;
+    color: rgb(58, 57, 57);
     text-decoration: none;
 }
 
 .bi-grid-3x3-gap-fill {
     font-size: 21px;
-    color: white;
+    color: rgb(58, 57, 57);
     vertical-align: middle;
 
 }
@@ -80,7 +80,7 @@ input#pesquisa::placeholder {
 }
 
 .bi-search {
-    color: white;
+    color: rgb(116, 112, 112);
     display: flex;
     padding-left: 1%;
     font-size: 20px;
@@ -94,7 +94,7 @@ input#pesquisa::placeholder {
     padding-top: 5%;
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(83, 80, 80);
    
 }
 .gap-footer{
@@ -174,4 +174,9 @@ input#pesquisa::placeholder {
     width: 170pt;
 }
   
+}
+body.dark{
+    
+    background-color: #323232;
+    
 }
