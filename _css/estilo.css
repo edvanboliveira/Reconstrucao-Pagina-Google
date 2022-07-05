@@ -1,9 +1,10 @@
 * {
     border: 0px;
     padding: 0px;
-    
+
 }
-body{
+
+body {
     background-color: rgb(247, 247, 247);
 }
 
@@ -85,8 +86,8 @@ input#pesquisa::placeholder {
     padding-left: 1%;
     font-size: 20px;
     vertical-align: middle;
-    
-    
+
+
 
 }
 
@@ -95,19 +96,21 @@ input#pesquisa::placeholder {
     display: flex;
     justify-content: center;
     color: rgb(83, 80, 80);
-   
+
 }
-.gap-footer{
+
+.gap-footer {
     flex-grow: 1;
 }
 
 .footer {
     height: 100px;
-   
+
 
 
 }
-.footer h5{
+
+.footer h5 {
     font-size: medium;
     display: flex;
     align-items: flex-end;
@@ -117,66 +120,76 @@ input#pesquisa::placeholder {
     line-height: 100px;
 
 }
-@media (max-width: 1200px){
+
+@media (max-width: 1200px) {
     .logo-google {
         padding: 20% 0% 0%;
 
+    }
 }
-}
-@media (max-width: 890px){
+
+@media (max-width: 890px) {
     .logo-google {
         padding: 25% 0% 0%;
 
+    }
 }
-}
-@media (max-width: 740px){
+
+@media (max-width: 740px) {
     .logo-google {
         padding: 35% 0% 0%;
 
-}
+    }
 }
 
-@media (max-width: 580px){
+@media (max-width: 580px) {
     .logo-google {
         padding: 45% 0% 0%;
 
-}
-    .footer h5{
+    }
+
+    .footer h5 {
         font-size: medium;
     }
-    #pesquisa{
+
+    #pesquisa {
         width: 230pt;
     }
 
 }
-@media (max-width: 480px){
+
+@media (max-width: 480px) {
     .logo-google {
         padding: 55% 0% 0%;
     }
-        .footer h5{
-            font-size: small;
-        }
-        #pesquisa{
-            width: 230pt;
-        }
+
+    .footer h5 {
+        font-size: small;
+    }
+
+    #pesquisa {
+        width: 230pt;
+    }
 }
 
-    
-@media (max-width: 330px){
+
+@media (max-width: 330px) {
     .logo-google {
         padding: 65% 0% 0%;
 
+    }
+
+    .footer h5 {
+        font-size: xx-small;
+    }
+
+    #pesquisa {
+        width: 170pt;
+    }
+
 }
-.footer h5{
-    font-size: xx-small;
-}
-#pesquisa{
-    width: 170pt;
-}
-  
-}
-body.dark{
-    
-    background-color: #323232;
-    
+
+body.dark {
+
+    background-color: #303030
 }
