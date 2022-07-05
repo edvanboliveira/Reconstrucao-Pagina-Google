@@ -23,8 +23,8 @@
         rel="stylesheet">
 
     <!-- CSS Nativo -->
-    <link rel="stylesheet" href="/_css/estilo.css">
-    
+    <link rel="stylesheet" href="../_css/estilo.css">
+
 </head>
 
 <body>
@@ -34,47 +34,49 @@
         <div class="row top-menu">
             <ul class="listagem">
                 <li class="items-menu"><a class="item-link" href="https://mail.google.com">Gmail</a></li>
-                <li class="items-menu"><a class="item-link" href="https://www.google.com/imghp?hl=pt-BR&tab=8i">Imagens</a></li>
+                <li class="items-menu"><a class="item-link"
+                        href="https://www.google.com/imghp?hl=pt-BR&tab=8i">Imagens</a></li>
                 <li class="items-menu"><a href=""><i class="bi bi-grid-3x3-gap-fill"></i></a></li>
                 <li class="items-menu"><a href="#"><img src="/_img/goku.png" alt="" width="35px"></a></li>
             </ul>
         </div>
 
-            <div class="row col-md-12 logo-google">
-            
-                <div class="input-group mb-3 barra-pesquisa">
-                    
-                    <input type="text" name="pesquisa-google" id="pesquisa" placeholder="Pesquise no Google ou digite um URL" size="60"> <i class="bi bi-search"></i>
+        <div class="row col-md-12 logo-google">
 
-                </div>
+            <div class="input-group mb-3 barra-pesquisa">
+
+                <input type="text" name="pesquisa-google" id="pesquisa"
+                    placeholder="Pesquise no Google ou digite um URL" size="60"> <i class="bi bi-search"></i>
 
             </div>
 
-           <div class="form-check form-switch mudar-tema">
-                <input class="form-check-input" type="checkbox" id="aciona" >
-                <label class="form-check-label" for="flexSwitchCheckChecked" > &nbsp; Tema Escuro</label>
-                </div>
-           
+        </div>
+
+        <div class="form-check form-switch mudar-tema">
+            <input class="form-check-input" type="checkbox" id="aciona">
+            <label class="form-check-label" for="flexSwitchCheckChecked"> &nbsp; Tema Escuro</label>
+        </div>
 
 
 
-            <div class="gap-footer"></div>
 
-            <div class="row">
-                <div class="col-12 footer">
-                    <h5>© Copyright 2022 - Edvan | Todos os direitos reservados.</h5>
-                </div>
+        <div class="gap-footer"></div>
+
+        <div class="row">
+            <div class="col-12 footer">
+                <h5>© Copyright 2022 - Edvan | Todos os direitos reservados.</h5>
             </div>
+        </div>
 
 
     </div>
 
     <script>
-    const aciona = document.getElementById('aciona');
+        const aciona = document.getElementById('aciona');
 
-    aciona.addEventListener('change',() => {
-        document.body.classList.toggle('dark')
-    })
+        aciona.addEventListener('change', () => {
+            document.body.classList.toggle('dark')
+        })
     </script>
 </body>
 
